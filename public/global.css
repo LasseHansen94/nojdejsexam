@@ -1,0 +1,185 @@
+body {
+    background: url(background.jpg);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: OpenSans-Regular;
+    font-size: 42px;
+}
+
+#potrait{
+    float: left;
+    margin-top: 10px;
+    height: 14%;
+    width: 14%;
+    margin-left: 18%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.benefits{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#back-btn{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#center{
+    display: block;
+    text-align: center;
+}
+
+#left_picture, #right_picture{
+    border-radius: 8px;
+    opacity: 85%;
+}
+
+#left_picture{
+    height: 18%;
+    width: 18%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 9%;
+    display: inline-block;
+}
+
+#middle{
+    margin-top: 5%;
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    float: left;
+}
+
+#right_picture{
+    height: 18%;
+    width: 18%;
+    float: right;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+#links{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+}
+
+hr {
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+}
+
+#contact-form{
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    border-color: gray;
+    border-style: ridge;
+    border-width: 1px;
+    background-color: white;
+}
+
+#email-field{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 0.5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+}
+
+#email{
+    display: block;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: left;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+}
+
+#message-field{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 0.5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 6.5%;
+    width: 90%;
+    height: 100px;
+    text-align: center;
+}
+
+#message{
+    display: block;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    width: 90%;
+    height: 80%;
+    text-align: left;
+    outline: none;
+    border: none;   
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#send-btn{
+    background-color: rgb(0, 110, 255);
+    padding: 15px 32px;
+    text-align: center;
+    margin-bottom: 6.5%;
+    border: none;
+}
+
+#submit{
+    background-color: rgb(0, 110, 255);
+}
+
+#conversation{
+    min-height: 30%;
+}
+
+#links{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#links:link{
+    text-decoration: none;
+}
+
+#links:visited{
+    text-decoration: none;
+}

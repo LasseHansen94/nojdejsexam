@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" type="text/css" href="public/global.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <hr>
+    <div>
+        <p>My telephone number: 50478301</p>
+        <p>My email: lasse.bjoern@hotmail.dk</p>
+        <hr>
+        <form id="contact-form" action="/contact" method="POST">
+            <div id="email-field">
+                <input id="email" type="email" name="email" placeholder="Your Email Address">
+            </div>
+            <div id="message-field">
+                <textarea id="message" type="text" name="message" placeholder="Your question to me"></textarea>
+            </div>
+            <div>
+                <button id="send-btn" type="submit" data-submit= "..Sending">Send message</button>
+            </div>
+        </form>
+        <button id="back-btn" type="button" href="/">Back</button>
+    </div>
+    <script src="public/contact/contact.js"></script>
+</body>
+</html>
