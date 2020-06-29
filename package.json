@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "nodemailer": "^6.4.10",
+    "objection": "^2.2.0",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LasseHansen94/nojdejsexam.git"
+  },
+  "author": "Lasse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LasseHansen94/nojdejsexam/issues"
+  },
+  "homepage": "https://github.com/LasseHansen94/nojdejsexam#readme"
+}
