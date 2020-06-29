@@ -82,10 +82,10 @@ app.get("/chat",  (req, res) => {
     return res.send(chat);
 })
 
-// We assign the value 4000 to our port
+// We assign the value 80 to our port
 const port = process.env.PORT ? process.env.PORT : 80;
 
-// We setup the server on port 4000
+// We setup the server on port 80
 const server = app.listen(port, (error) => {
     if (error) {
         console.log("Error running the server.");
