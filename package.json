@@ -14,7 +14,8 @@
     "socket.io": "^2.3.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-prod": "sudo PORT=80 pm2 start app.js -f"
   },
   "repository": {
     "type": "git",
