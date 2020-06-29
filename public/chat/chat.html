@@ -17,7 +17,7 @@
     <hr>
     <div id="conversation"></div>
     <script>
-        const socket = io.connect("http://ec2-3-134-91-139.us-east-2.compute.amazonaws.com/chat:80");
+        const socket = io.connect("http://ec2-3-134-91-139.us-east-2.compute.amazonaws.com:80");
     
         $('#submit').click(() => {
             const thoughts = $('#thoughts').val();
