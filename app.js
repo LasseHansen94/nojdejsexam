@@ -83,7 +83,7 @@ app.get("/chat",  (req, res) => {
 })
 
 // We assign the value 4000 to our port
-const port = process.env.PORT ? process.env.PORT : 4000;
+const port = process.env.PORT ? process.env.PORT : 80;
 
 // We setup the server on port 4000
 const server = app.listen(port, (error) => {
